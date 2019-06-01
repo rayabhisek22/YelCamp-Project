@@ -1,0 +1,16 @@
+<% include partials/header %>
+
+<h1>Welcome to the Campground page!</h1>
+<a href="/campground/new">Add new Campground</a>
+<br>
+
+
+<%campground.forEach(function(camps){%>
+  <img src="<%=camps.img%>" alt="img">
+  <li><strong><%=camps.name%></li></strong>
+<%});%>
+
+
+<a href="/">Go Back</a>
+
+<% include partials/footer %>

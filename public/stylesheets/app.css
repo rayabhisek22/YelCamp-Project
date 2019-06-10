@@ -1,0 +1,14 @@
+img{
+  width:3150px;
+  height:500px;
+}
+ .img-thumbnail{
+  width:auto;
+  height:300px;
+}
+.bg-dark{
+  background:#000066;
+}
+#name{
+  margin-right:25%;
+}

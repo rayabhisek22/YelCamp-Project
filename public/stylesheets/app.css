@@ -1,10 +1,7 @@
-img{
-  width:3150px;
-  height:500px;
-}
- .img-thumbnail{
-  width:auto;
-  height:300px;
+
+ .thumbnail img{
+  width:100%;
+
 }
 .bg-dark{
   background:#000066;

@@ -15,7 +15,7 @@ var indexRoute = require('./routers/index'),
     campgroundRoute = require('./routers/campground'),
     commentRoute = require('./routers/comment');
 
-//database config
+//database configuration
 const uri = "mongodb://localhost:27017";
 mongoose.connect(uri,{
   useNewUrlParser:true,

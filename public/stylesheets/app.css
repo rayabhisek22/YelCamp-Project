@@ -1,0 +1,15 @@
+
+ .thumbnail img{
+  width:100%;
+
+
+}
+#index.img-thumbnail {
+  height:200px;
+}
+.bg-dark{
+  background:#000066;
+}
+#name{
+  margin-right:25%;
+}

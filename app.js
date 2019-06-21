@@ -15,7 +15,6 @@ var indexRoute = require('./routers/index'),
     commentRoute = require('./routers/comment');
 
 //database config
-//
 const uri = "mongodb+srv://rayabhisek22:Abcabcabv34@cluster0-sesav.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(uri,{
   useNewUrlParser:true,
